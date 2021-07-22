@@ -1,12 +1,34 @@
 * {
-  background: wheat;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-#numeros {
-  color: red;
+header {
+  background: blue;
 }
 
-#numeros a {
-  color: yellow;
+.intro {
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  background: yellowgreen;
 }
 /*# sourceMappingURL=styles.css.map */
