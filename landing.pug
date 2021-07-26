@@ -4,91 +4,38 @@ html
 		meta(charset="UTF-8")
 		link(rel="stylesheet",href='styles.css')
 	body
-		header
-			h1 rotoplas
-			a(class="boton") Registro
-		section.intro
-			.intro__contenido_derecha
-				.intro__imagen: img(src="images/imagen.png")
-				h2 Titulo Principal
-				p
-					| Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					| Proin ex mi, gravida sit amet imperdiet vel, sodales a mi. 
-					| Proin sit amet tellus nec nisl bibendum ornare nec at augue. 
-					| Integer semper feugiat varius.
-					span Proin sed urna quis orci interdum rutrum. Integer rhoncus finibus nunc, ac porttitor ex dapibus ac.
-				a(class="boton") Leer Mas
-				p.intro--fecha
-			.intro__contenido_izquierda
-				.intro__imagen: img(src="images/imagen.png")
-				h2 Titulo Principal
-				p
-					| Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					| Proin ex mi, gravida sit amet imperdiet vel, sodales a mi. 
-					| Proin sit amet tellus nec nisl bibendum ornare nec at augue. 
-					| Integer semper feugiat varius.
-					span Proin sed urna quis orci interdum rutrum. Integer rhoncus finibus nunc, ac porttitor ex dapibus ac.
-				a(class="boton") Leer Mas
-				p.intro--fecha
-		section.products 
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1  Descargar 
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1  Descargar 
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1  Descargar 
-			.products__item
-				img.products__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.products__title Biodigestor
-				.products__button
-					button#openModalBim1 Descargar
-		article.carrousel
-			.carrousel__item
-				img.carrousel__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-			.carrousel__item
-				img.carrousel__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-			.carrousel__item
-				img.carrousel__img(src='https://rotoplas.vteximg.com.br/arquivos/biodigestor.png' alt='biodigestor')
-				h4.carrousel__title Biodigestor
+		header.header 
+			.header__logo 
+				img(src="", alt="logo")
+			.header__lista
+				ul
+					li inicio 
+					li blog
+					li proyectos
+					li contacto
+		section
+			section.container
+				section.container__dialogos
+					.section__containerSuperior
+					h2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, eum. 
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ex reiciendis ullam itaque necessitatibus nam placeat unde voluptates deleniti doloremque tempora veritatis iure officia, quaerat quibusdam molestias aliquid fugiat?
+					.section__containerInferior
+					h2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, eum. 
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ex reiciendis ullam itaque necessitatibus nam placeat unde voluptates deleniti doloremque tempora veritatis iure officia, quaerat quibusdam molestias aliquid fugiat?
+				
+				section.container__recuadros
+					.container__cuadradoSuperior
+						p hola
+					.container__cuadradoInferior
+						p hola
 		footer.footer
-			img(src="", alt="REDES", srcset="")
-			img(src="", alt="REDES", srcset="")
-			img(src="", alt="REDES", srcset="")
-			img(src="", alt="REDES", srcset="")
-			img(src="", alt="REDES", srcset="")
-			a(href="http://") link link
-			a(href="http://") 
+			.footer__links 
+				ul
+					li inicio 
+					li blog
+					li proyectos
+					li contacto
+			.footer__redes
+				ul 
+					li FB
+					li TW

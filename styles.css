@@ -6,29 +6,112 @@
 
 header {
   background: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.intro {
+header .header__logo {
+  background: chocolate;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+header .header__lista {
+  margin: 1rem;
+  background: red;
+}
+
+header .header__lista ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__lista ul li {
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+section .container {
+  background: #949417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container__dialogos {
+  background: cornflowerblue;
+}
+
+section .container__recuadros {
+  padding: 6rem;
+}
+
+section .container__recuadros .container__cuadradoSuperior {
   background: yellow;
+  width: 10rem;
+  height: 10vh;
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+
+section .container__recuadros .container__cuadradoInferior {
+  width: 10rem;
+  height: 10vh;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  background: yellow;
+}
+
+aside {
+  background: red;
+}
+
+footer {
+  background: #2d407c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.products {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+footer ul li {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
-.carrousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+footer .footer__links {
+  background: darkmagenta;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
-.footer {
-  background: yellowgreen;
+footer .footer__redes {
+  background: darkturquoise;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
