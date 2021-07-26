@@ -1,4 +1,4 @@
 # maquetacion-web
 
 #compilation Pug
-    pug -w --pretty landing.pug                   
+    pug -w --pretty landing.pug                   # maquetacion
