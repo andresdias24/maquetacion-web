@@ -22,6 +22,11 @@ header {
       grid-template-columns: auto auto auto;
 }
 
+#products img {
+  width: 750px;
+  object-fit: contain;
+}
+
 .carrousel {
   display: -webkit-box;
   display: -ms-flexbox;
